@@ -27,4 +27,4 @@ jobs:
         server: whenwemeet.dothome.co.kr
         username: whenwemeet
         password: ${{ secrets.ftp_password }}
-        server-dir: /html
+        server-dir: /html/
