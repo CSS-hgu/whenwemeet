@@ -4,4 +4,4 @@
   ClientEncoding UTF-8
 </IfModule>
 
-ErrorDocument 404 errorpage/notfound.html
+ErrorDocument 404 /errorpage/notfound.html
