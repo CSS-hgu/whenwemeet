@@ -66,7 +66,6 @@ button {
 }
 .mdl-layout__drawer {
     width: 20%;
-    flex-shrink: 0;
 }
 @media screen and (min-width: 1024px) {
     .page-content {
