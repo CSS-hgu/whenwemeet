@@ -42,34 +42,34 @@ label {
 button {
     margin-right: 5px;
 }
+/* Tab Title 글자 */
 .mdl-layout-title {
-    font-family: "BMDOHYEON";
+    font-family: "Noto Sans KR";
     font-size: 32px;
     margin-top: 5px;
 }
-.page-content {
-    display: flex;
-    height: 100%;
-    padding: 0px 6px 0px 6px;
-}
-.page-content .team-list {
-    background-color: #F5EFC8;
-    flex: 1;
-    margin-right: 5px;
-}
-.page-content .schedule-screen {
-    /* background-color:cornsilk; */
-    flex: 5;
-}
+/* Tab 색상 */
 .mdl-layout__header {
-    background-color: #4F86C6;
+    background-color: #333D51;
 }
-.mdl-list {
-    margin-top: 5px;
-}
-.mdl-list__item-primary-content {
+/* Tab Menu 글자 */
+.mdl-layout__header-row .mdl-navigation .mdl-navigation__link {
     font-family: 'Noto Sans KR';
-    font-size: 18px;
-    color: #2e333a;
-    margin-left: 20px;
+}
+/* drawer 글자 */
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    font-family: 'Noto Sans KR';
+    color: #111111;
+}
+.page-content {
+    padding-left: 0%;
+}
+.mdl-layout__drawer {
+    width: 20%;
+    flex-shrink: 0;
+}
+@media screen and (min-width: 1024px) {
+    .page-content {
+        padding-left: 20%;
+    }
 }
