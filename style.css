@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-kr-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/noto-sans-kr-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/noto-sans-kr-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/noto-sans-kr-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-sans-kr-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/noto-sans-kr-v13-latin-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .container {
     /* background-color: yellow; */
     height: 800px;
@@ -17,4 +41,35 @@ label {
 }
 button {
     margin-right: 5px;
+}
+.mdl-layout-title {
+    font-family: "BMDOHYEON";
+    font-size: 32px;
+    margin-top: 5px;
+}
+.page-content {
+    display: flex;
+    height: 100%;
+    padding: 0px 6px 0px 6px;
+}
+.page-content .team-list {
+    background-color: #F5EFC8;
+    flex: 1;
+    margin-right: 5px;
+}
+.page-content .schedule-screen {
+    /* background-color:cornsilk; */
+    flex: 5;
+}
+.mdl-layout__header {
+    background-color: #4F86C6;
+}
+.mdl-list {
+    margin-top: 5px;
+}
+.mdl-list__item-primary-content {
+    font-family: 'Noto Sans KR';
+    font-size: 18px;
+    color: #2e333a;
+    margin-left: 20px;
 }
