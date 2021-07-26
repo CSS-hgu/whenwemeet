@@ -77,3 +77,36 @@ button {
         padding-left: 20%;
     }
 }
+
+.box-center-x {
+    position: relative;
+}
+  
+.box {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+  
+.button-center {
+    display: table;
+    margin: auto;
+}
+  
+#vote {
+    margin-right: 50px;
+    width: 100px;
+    height: 50px;
+}
+  
+.list {
+    overflow:auto; 
+    width:800px; 
+    height:300px;
+}
+  
