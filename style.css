@@ -80,9 +80,9 @@ button {
 
 .box-center-x {
     position: relative;
-  }
+}
   
-  .box {
+.box {
     width: 50%;
     height: 70%;
     margin: auto;
@@ -91,22 +91,22 @@ button {
     right: 0;
     bottom: 0;
     left: 0;
-  }
+}
   
-  .button-center {
+.button-center {
     display: table;
     margin: auto;
-  }
+}
   
-  #vote {
+#vote {
     margin-right: 50px;
     width: 100px;
     height: 50px;
-  }
+}
   
-  .list {
+.list {
     overflow:auto; 
     width:800px; 
     height:300px;
-  }
+}
   
