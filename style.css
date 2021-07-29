@@ -1,3 +1,30 @@
+/* font */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-kr-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/noto-sans-kr-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/noto-sans-kr-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/noto-sans-kr-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-sans-kr-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/noto-sans-kr-v13-latin-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* login page */
 .container {
     /* background-color: yellow; */
     height: 800px;
@@ -18,3 +45,68 @@ label {
 button {
     margin-right: 5px;
 }
+
+/* home page */
+/* Tab Title 글자 */
+.mdl-layout-title {
+    font-family: "Noto Sans KR";
+    font-size: 32px;
+    margin-top: 5px;
+}
+/* Tab 색상 */
+.mdl-layout__header {
+    background-color: #333D51;
+}
+/* Tab Menu 글자 */
+.mdl-layout__header-row .mdl-navigation .mdl-navigation__link {
+    font-family: 'Noto Sans KR';
+}
+/* drawer 글자 */
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    font-family: 'Noto Sans KR';
+    color: #111111;
+}
+.page-content {
+    padding-left: 0%;
+}
+.mdl-layout__drawer {
+    width: 20%;
+}
+@media screen and (min-width: 1024px) {
+    .page-content {
+        padding-left: 20%;
+    }
+}
+
+.box-center-x {
+    position: relative;
+}
+  
+.box {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+  
+.button-center {
+    display: table;
+    margin: auto;
+}
+  
+#vote {
+    margin-right: 50px;
+    width: 100px;
+    height: 50px;
+}
+  
+.list {
+    overflow:auto; 
+    width:800px; 
+    height:300px;
+}
+  
