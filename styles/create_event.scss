@@ -1,0 +1,14 @@
+.create_event {
+  label:not(.form-check-label) {
+    font-weight: bold;
+    margin: 0.4em 0;
+  }
+
+  form > .form-group {
+    margin: 1em 0;
+  }
+
+  #submitbutton {
+    text-align: center;
+  }
+}
