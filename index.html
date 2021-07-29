@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>index</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <p><a href="login.html">로그인페이지</a></p>
     <p><a href="home.html">홈 화면</a></p>
     <p><a href="time-recommend.html">추천시간</a></p>
     <p><a href="select-time.html">시간선택</a></p>
     <p><a href="vote-time.html">시간투표</a></p>
-</body>
+    <p><a href="javascript:createNewEventWindow()">새로운 일정</a></p>
 
+    <script>
+      // Popup
+      function createNewEventWindow() {
+        newwindow = window.open(
+          "/create_event.html",
+          "새로운 일정",
+          "resizable=0,height=800,width=580"
+        );
+        if (window.focus) {
+          newwindow.focus();
+        }
+        return false;
+      }
+    </script>
+  </body>
 </html>
