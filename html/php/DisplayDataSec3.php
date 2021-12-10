@@ -4,9 +4,9 @@
 <h1>Data Inserted</h1>
 <table>
     <tr>
-        <td>Name</td>
-        <td>Address</td>
-        <td>Store</td>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Store</td>
     </tr>
 </table>
 
